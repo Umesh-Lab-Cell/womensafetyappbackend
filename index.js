@@ -100,9 +100,9 @@ server.get('/alert/:uemail/:uloc', async (req, res) => {
     const a = personData[0].first_name;
     const b = personData[0].last_name;
 
-    mail('xyz71453@gmail.com', 'xyz#123456', x, floc, a, b);
-    mail('xyz71453@gmail.com', 'xyz#123456', y, floc, a, b);
-    mail('xyz71453@gmail.com', 'xyz#123456', z, floc, a, b);
+    mail('youemailaddress', 'password', x, floc, a, b);
+    mail('youemailaddress', 'password', y, floc, a, b);
+    mail('youemailaddress', 'password', z, floc, a, b);
 
     res.send(
       `Mail sent to ${x}, ${y}, ${z}. \n Message : \nYou friend ${a} ${b} needs urgent help at location : ${floc} `

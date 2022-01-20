@@ -1,0 +1,19 @@
+{
+  "name": "womensafetyappbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "umesh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.5",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  }
+}
